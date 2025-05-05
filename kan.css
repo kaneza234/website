@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: rgb(251, 251, 251);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+     background-color: aqua;
+     padding: 20px;
+     box-shadow: rgb(rgb(224, 100, 100), rgb(115, 226, 115), rgb(209, 209, 242));
+} 
+.logo{
+    align-items: center;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}  
+nav a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgb(20, 20, 39);
+}
+.content{
+    text-align: center;
+    padding: 150px;
+} 
+.content p{
+    font-size: 1.2em;
+    color: cadetblue;
+    max-width: 600px;
+    margin: 20px auto;
+} 
+.sign-in{
+margin-top: 40px;
+} .sign-in button {
+padding: 10px;
+background-color: antiquewhite;
+color: chocolate;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+}  
+.sign-in button:hover {
+    background-color: rgba(107, 192, 192, 0.824);
+    
+}
